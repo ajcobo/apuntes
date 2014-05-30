@@ -1,0 +1,27 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @document.name
+p
+  strong Path:
+  = @document.path
+p
+  strong User:
+  = @document.user_id
+p
+  strong Checksum:
+  = @document.checksum
+p
+  strong Content type:
+  = @document.content_type
+p
+  strong Status:
+  = @document.status_id
+p
+  strong File size:
+  = @document.file_size
+
+= link_to 'Edit', edit_document_path(@document)
+'|
+= link_to 'Back', documents_path

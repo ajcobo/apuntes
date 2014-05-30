@@ -1,0 +1,14 @@
+= simple_form_for(@document) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :name
+    = f.input :path
+    = f.input :user_id
+    = f.input :checksum
+    = f.input :content_type
+    = f.input :status_id
+    = f.input :file_size
+
+  .form-actions
+    = f.button :submit

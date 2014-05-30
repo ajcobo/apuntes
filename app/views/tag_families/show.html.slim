@@ -1,0 +1,9 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @tag_family.name
+
+= link_to 'Edit', edit_tag_family_path(@tag_family)
+'|
+= link_to 'Back', tag_families_path
