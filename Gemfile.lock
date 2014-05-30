@@ -354,6 +354,7 @@ DEPENDENCIES
   guard-bundler
   guard-rails
   guard-rspec
+  inherited_resources
   jquery-rails
   launchy
   mini_magick

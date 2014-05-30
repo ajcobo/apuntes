@@ -19,7 +19,7 @@ gem 'slim-rails'
 gem 'roboto'
 
 # Monitoring
-#Sgem 'newrelic_rpm'
+#gem 'newrelic_rpm'
 #gem 'airbrake'
 gem 'google-analytics-rails'
 
@@ -53,6 +53,9 @@ gem 'active_model_serializers'
 # Authorization
 gem 'cancan'
 gem 'rolify'
+
+# Slim Controllers
+gem 'inherited_resources'
 
 group :development do
   gem 'better_errors'
